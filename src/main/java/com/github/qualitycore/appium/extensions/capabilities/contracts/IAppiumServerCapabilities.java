@@ -6,12 +6,10 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.github.qualitycore.appium.extensions.capabilities.enums.AutomationNameEnum;
 import com.github.qualitycore.appium.extensions.capabilities.enums.BrowserNameEnum;
-import com.github.qualitycore.appium.extensions.capabilities.enums.PlatformNameEnum;
 import com.github.qualitycore.appium.extensions.capabilities.enums.OrientationEnum;
+import com.github.qualitycore.appium.extensions.capabilities.enums.PlatformNameEnum;
 
-import io.appium.java_client.remote.MobileCapabilityType;
-
-public interface IAppiumServerCapabilities extends MobileCapabilityType, Serializable, Cloneable {
+public interface IAppiumServerCapabilities extends Serializable, Cloneable {
 
 	public static AutomationNameEnum	DEFAULT_AUTOMATION_NAME		= AutomationNameEnum.APPIUM;
 	public static PlatformNameEnum		DEFAULT_PLATFORM_NAME		= null;
