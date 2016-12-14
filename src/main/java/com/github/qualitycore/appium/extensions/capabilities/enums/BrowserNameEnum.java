@@ -23,4 +23,5 @@ public enum BrowserNameEnum {
 	public String toString() {
 		return this.getValue();
 	}
+	
 }
